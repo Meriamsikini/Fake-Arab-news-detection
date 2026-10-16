@@ -6,9 +6,10 @@ from collections import defaultdict, Counter
 # CONFIGURATION
 # ==========================================================
 
-INPUT_FILE = "real_news_dataset_categorized.json"
-OUTPUT_FILE = "real_news_dataset_30k.json"
-
+INPUT_FILE = "Real_news_dataset.json"
+# INPUT_FILE = "fake_news_dataset.json"
+OUTPUT_FILE = "Real_news_dataset_30k.json"
+# OUTPUT_FILE = "fake_news_dataset_30k.json"
 TARGET_SIZE = 30000
 
 MIN_WORDS = 50
