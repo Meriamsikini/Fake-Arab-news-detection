@@ -7,7 +7,8 @@ import re
 # ==============================
 
 INPUT_FOLDER = "cleaned/Fake"
-OUTPUT_FILE = "fake_news_dataset.json"
+OUTPUT_FILE = "fake_news_dataset.json"  
+# OUTPUT_FILE = "Real_news_dataset.json"
 
 # Expression régulière des fichiers
 pattern = re.compile(r"cleaned_dataset.*\.json$")
